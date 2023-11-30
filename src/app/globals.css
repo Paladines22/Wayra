@@ -2,26 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.body {
+  width: 100vw;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.bg-home-gradient {
+  background: rgb(250, 250, 250);
+  background: linear-gradient(
+    276deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(224, 148, 83, 1) 100%
+  );
+}
+
+.bg-button-gradient {
+  background: rgb(104, 143, 78);
+  background: linear-gradient(
+    276deg,
+    rgba(104, 143, 78, 1) 0%,
+    rgba(177, 209, 130, 1) 100%
+  );
+}
+.bg-gradient-btn {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(254, 253, 205, 1) 11.2%,
+    rgba(163, 230, 255, 1) 91.1%
+  );
+}
+
+.bg-nosotros {
+  background-image: url("/nosotros.JPG");
+  background-size: cover;
+  background-position: bottom;
+}
+
+@media (min-width: 800px) {
+  .bg-nosotros {
+    background-position: center;
   }
 }
 
+/* Swiper Animation Atractivos Styles**/
+
+#app {
+  height: 100%;
+}
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #faf9f9;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: white;
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
 }
