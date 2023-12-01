@@ -65,7 +65,7 @@ function Home() {
                 filter: "brightness(.8)",
               }}
             />
-            <div className="flex flex-col gap-8 ">
+            <div className="flex flex-col gap-8 my-auto">
               <div className="w-[70vw] lg:w-[25vw] mx-auto relative top-14">
                 <Image
                   width={500}
@@ -146,7 +146,7 @@ function Home() {
               }}
             />
             <div className="flex flex-col gap-8 ">
-              <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14">
+              <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14 my-auto">
                 <Image
                   width={500}
                   height={30}
