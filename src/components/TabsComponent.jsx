@@ -212,7 +212,7 @@ function TabsComponent() {
                 selectedTab === index ? "  text-[#E09453]" : ""
               }`}
             >
-              <p className="lg:text-3xl"> {item.title}</p>
+              <p className="lg:text-2xl"> {item.title}</p>
             </button>
           ))}
         </div>

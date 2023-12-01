@@ -77,7 +77,7 @@ function Home() {
                 <p
                   className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
-                  Finca <span className="ml-12  sm:ml-28">Turística</span>
+                  Finca <span className="ml-12  sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
@@ -155,9 +155,9 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24 lg:text-5xl  sm:bottom-36 text-white ${tajawal.className}`}
                 >
-                  Finca <span className="ml-12  sm:ml-28">Turística</span>
+                  Finca <span className="ml-12  sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
@@ -210,7 +210,7 @@ function Home() {
                     <p className="font-bold my-auto">Contactar</p>
                     <div className="">
                       <Image
-                        src="/flecha-correcta.png"
+                        src="/right-chevron-.png"
                         width={60}
                         alt="image"
                         height={60}
@@ -246,9 +246,9 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24 lg:text-5xl  sm:bottom-36 text-white ${tajawal.className}`}
                 >
-                  Finca <span className="ml-12  sm:ml-28">Turística</span>
+                  Finca <span className="ml-12  sm:ml-20">Turística</span>
                 </p>
               </div>
               <div className="mx-auto">
@@ -259,7 +259,7 @@ function Home() {
 
                       <div className="mb-1">
                         <Image
-                          src="/flecha-correcta.png"
+                          src="/right-chevron-.png"
                           width={47}
                           alt="image"
                           height={47}

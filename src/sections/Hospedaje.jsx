@@ -19,7 +19,7 @@ function Hospedaje() {
     <section className="pt-8 sm:pt-4 h-max w-full " id="hospedaje">
       <MotionAnimationLeft
         content={
-          <h1 className="text-center lg:text-start lg:ml-24 lg:text-8xl py-4  text-4xl text-[#216974]">
+          <h1 className="text-center lg:text-start lg:ml-24 lg:text-7xl py-4  text-4xl text-[#216974]">
             HOSPEDAJE
           </h1>
         }
@@ -33,13 +33,13 @@ function Hospedaje() {
               </div>
               <div className="my-auto flex flex-col  rounded-lg p-2  sm:p-6 sm:gap-8 mx-auto">
                 <div className="rounded-xl bg-[#FAF9F9] shadow-md">
-                  <div className="mx-auto max-w-[700px]  rounded-md">
+                  <div className="mx-auto max-w-[35vw]  rounded-md">
                     <h1
                       className={`text-center my-2 sm:my-4 text-4xl  sm:text-7xl ${caveat.className}`}
                     >
                       Cabaña La Mirla
                     </h1>
-                    <p className=" p-1 sm:p-4 text-xl font-thin sm:text-2xl ">
+                    <p className=" p-1 sm:p-4 text-lg font-thin sm:text-xl ">
                       Esta cabaña está diseñada especialmente para disfrutar del
                       mayor confort, relajación y privacidad. Disfruta aquí de
                       la mejor vista del cañon del Magdalena. Pregunta por
@@ -79,15 +79,15 @@ function Hospedaje() {
                   {/** Tab Component */}
                   <TabsComponent />
                 </div>
-                <div className="my-auto flex flex-col max-w-[700px]  rounded-lg py-6 gap-6 mx-auto">
+                <div className="my-auto flex flex-col max-w-[35vw]  rounded-lg py-6 gap-6 mx-auto">
                   <div className="rounded-xl lg:mx-2 shadow-md bg-[#FAF9F9]  ">
-                    <div className=" rounded-md">
+                    <div className=" rounded-md ">
                       <h1
-                        className={`text-center my-2 sm:mb-4 text-4xl  sm:text-7xl ${caveat.className}`}
+                        className={`text-center my-2  text-4xl  sm:text-7xl ${caveat.className}`}
                       >
                         Hospedaje tipo Nidos
                       </h1>
-                      <p className="font-thin p-2 sm:p-4 text-xl lg:text-2xl ">
+                      <p className="font-thin p-2 sm:p-4 text-lg lg:text-xl ">
                         Este hospedaje está inspirado en la maravillosa avifauna
                         de nuestra región, su diseño arquitectónico busca dar
                         apariencia y forma de nido de ave a cada habitación.
@@ -110,7 +110,7 @@ function Hospedaje() {
                         <RoomFeatures text="Balcón Privado" img="/balcon.png" />
                       </div>
                     </div>
-                    <div className="flex justify-center my-2 sm:my-8">
+                    <div className="flex justify-center my-2 ">
                       <ReservaButton />
                     </div>
                   </div>

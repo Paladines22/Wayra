@@ -12,25 +12,25 @@ import MotionAnimationBottom from "@/components/MotionAnimationBottom";
 
 const comments = [
   {
-    userName: "Dante Emiliano",
+    userName: "Camilo Name",
     comment:
       "Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden.Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden",
     img: "/user1.png",
   },
   {
-    userName: "Dante Emiliana",
+    userName: "Laura Name",
     comment:
       "Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden. Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden",
-    img: "/user3.png",
+    img: "/user2.png",
   },
   {
-    userName: "Dante Emiliana",
+    userName: "Rodrigo Name",
     comment:
       "Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden. Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden",
     img: "/user1.png",
   },
   {
-    userName: "Dante Emiliana",
+    userName: "Carlos Name",
     comment:
       "Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden. Lorem sisokd uehreir ausha ierjer, lore , por lo meno, siheiden",
     img: "/user3.png",
@@ -66,7 +66,7 @@ function Comments() {
                   className="max-w-[80vw] shadow-2xl mx-20 lg:max-w-[370px] lg:max-h-[480px] flex flex-col gap-4 bg-white  rounded-xl"
                   key={index}
                 >
-                  <div className="h-10 relative right-36">
+                  <div className="  h-10 w-10 relative right-36">
                     <Image
                       src="/cita.png"
                       width={10}

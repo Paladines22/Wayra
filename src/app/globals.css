@@ -32,9 +32,9 @@
 }
 
 .bg-nosotros {
-  background-image: url("/nosotros.JPG");
+  background-image: url("/laberinto1.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 
 @media (min-width: 800px) {

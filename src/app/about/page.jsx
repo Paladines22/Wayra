@@ -55,7 +55,7 @@ function AboutPage() {
 
       <div className="flex items-center md:justify-center  flex-wrap">
         <div className="maw-w-content flex flex-col lg:gap-12 lg:mt-20 items-end">
-          <div className="mx-4 mt-10 sm:mt-16 sm:w-[650px] lg:text-3xl font-thin text-justify sm:leading-10">
+          <div className="mx-4 mt-10 sm:mt-16 sm:w-[650px] lg:text-3xl text-justify sm:leading-10">
             <p>
               Sobre el macizo Colombiano, a orillas del cañón del río magdalena,
               en el municipio de Isnos- Huila, se encuentra Finca Turística
@@ -108,28 +108,19 @@ function AboutPage() {
             slidesPerView="auto"
             className="mySwiper my-2 sm:w-[30vw] "
           >
-            <SwiperSlide className="bg-bottom  rounded-xl w-[500px] max-h-[500px]">
-              <Image
-                className=" rounded-xl"
-                src="/about.png"
-                width={300}
-                height={300}
-                alt="image Laberinto"
-              />
-            </SwiperSlide>
             <SwiperSlide className="max-w-[500vw] rounded-xl max-h-[500px]">
               <Image
                 className=" rounded-xl "
-                src="/laberinto3.jpg"
+                src="/gallery3.jpg"
                 width={300}
                 height={300}
                 alt="image Laberinto"
               />
             </SwiperSlide>
-            <SwiperSlide className="max-w-[500vw] rounded-xl max-h-[500px]">
+            <SwiperSlide className="max-w-[500vw]  rounded-xl max-h-[500px]">
               <Image
                 className=" rounded-xl "
-                src="/laberinto2.jpg"
+                src="/gallery10.jpg"
                 width={300}
                 height={300}
                 alt="image Laberinto"
@@ -137,8 +128,8 @@ function AboutPage() {
             </SwiperSlide>
             <SwiperSlide className="max-w-[500vw] rounded-xl max-h-[500px]">
               <Image
-                className=" rounded-md "
-                src="/laberinto4.jpg"
+                className=" rounded-md bg-cover"
+                src="/gallery9.jpg"
                 width={300}
                 height={300}
                 alt="image Laberinto"

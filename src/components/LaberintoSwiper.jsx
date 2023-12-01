@@ -46,7 +46,7 @@ function LaberintoSwiper() {
         <SwiperSlide className="bg-bottom">
           <Image
             className="border rounded-xl "
-            src="/laberinto5.JPG"
+            src="/laberinto1.jpg"
             width={1200}
             height={300}
             alt=" Laberinto"
@@ -70,15 +70,7 @@ function LaberintoSwiper() {
             alt=" Laberinto"
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            className="border rounded-md"
-            src="/laberinto4.jpg"
-            width={1200}
-            height={300}
-            alt=" Laberinto"
-          />
-        </SwiperSlide>
+
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20"></circle>

@@ -108,13 +108,13 @@ function Atractivos() {
           />
           <MotionAnimationBottom
             content={
-              <div className="flex flex-wrap justify-center gap-14 ">
-                <div className="max-w-[600px] bg-white sm:m-6 p-2 shadow-xl  rounded-lg font-thin my-auto">
-                  <h2 className="text-2xl sm:text-4xl text-[#216974]">
+              <div className="flex flex-wrap justify-center gap-14 mx-8">
+                <div className="max-w-[600px] bg-white sm:m-6 p-2 shadow-xl  rounded-lg my-auto">
+                  <h2 className="text-2xl sm:text-4xl text-[#216974] text-bold">
                     Una representación artística de la avifauna de nuestra
                     región
                   </h2>
-                  <ul className="text-xl my-20 ">
+                  <ul className="text-xl my-20 font-thin ">
                     <li>
                       <div className="flex my-4 text-start text-lg  sm:text-2xl gap-6 border p-2 rounded-md border-[#0C4049]">
                         <Image

@@ -46,15 +46,6 @@ function SenderoSwiper() {
         <SwiperSlide>
           <Image
             className="border rounded-xl"
-            src="/sendero1.jpg"
-            width={500}
-            height={300}
-            alt="image Laberinto"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            className="border rounded-xl"
             src="/sendero.jpg"
             width={500}
             height={300}
@@ -64,7 +55,7 @@ function SenderoSwiper() {
         <SwiperSlide>
           <Image
             className="border rounded-xl"
-            src="/sendero6.jpg"
+            src="/gallery10.jpg"
             width={500}
             height={300}
             alt="image Laberinto"
@@ -72,8 +63,8 @@ function SenderoSwiper() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            className="border rounded-md"
-            src="/sendero2.jpg"
+            className="border rounded-xl"
+            src="/sendero3.jpg"
             width={500}
             height={300}
             alt="image Laberinto"

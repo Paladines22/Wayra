@@ -7,7 +7,7 @@ import Lenis from "@studio-freight/lenis";
 import useDimension from "@/app/useDimension";
 
 const images = [
-  "gallery1.jpg",
+  "home2.jpg",
   "gallery2.jpg",
   "gallery3.jpg",
   "gallery4.jpg",
@@ -72,15 +72,15 @@ export default function Galeria() {
       >
         <div ref={container} className={styles.gallery}>
           <Column
-            images={[images[7], images[0], images[5], images[11]]}
+            images={[images[4], images[0], images[5], images[11]]}
             y={y}
           />
           <Column
-            images={[images[10], images[1], images[9], images[3]]}
+            images={[images[10], images[2], images[9], images[3]]}
             y={y2}
           />
           <Column
-            images={[images[2], images[4], images[8], images[6]]}
+            images={[images[1], images[7], images[8], images[6]]}
             y={y3}
           />
         </div>

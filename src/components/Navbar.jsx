@@ -5,9 +5,8 @@ import { dataNavbar } from "@/utils/Navbar.data";
 import { useState } from "react";
 import SocialMediaIcons from "./SocialMediaIcons";
 
-function Navbar({ color }) {
+function Navbar() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
-  const [closeNav, setCloseNav] = useState(false);
 
   return (
     <header className="">
@@ -19,8 +18,8 @@ function Navbar({ color }) {
         <nav className="flex items-center w-full p-2 max-w-[1240px]  text-[#F4F1E9]  mx-auto justify-between ">
           <Link href="/" className="flex items-center">
             <Image
-              width={110}
-              height={30}
+              width={90}
+              height={20}
               src="./wayra-logo.svg"
               alt="Wayra Logo"
               className={`${openMobileMenu ? "hidden" : "block"}`}
@@ -70,7 +69,7 @@ function Navbar({ color }) {
                             openMobileMenu
                               ? "underline underline-offset-8 decoration-orange-400 transition delay-150 duration-200 ease-in-out"
                               : ""
-                          } text-2xl font-normal hover:underline hover:underline-offset-8 hover:decoration-orange-300 transition delay-150 duration-200 ease-in-out`}
+                          } text-xl font-normal hover:underline hover:underline-offset-8 hover:decoration-orange-300 transition delay-150 duration-200 ease-in-out`}
                         >
                           {name}
                         </h2>
@@ -78,20 +77,18 @@ function Navbar({ color }) {
                     </li>
                   </ul>
                 ))}
-                <div
-                  className={`flex absolute gap-2  right-0 pr-56 ${
-                    openMobileMenu ? "hidden" : "block "
-                  } `}
-                >
-                  <Image
-                    src="/telephone.png"
-                    width={25}
-                    height={5}
-                    alt="icon"
-                  />
-                  <p>
-                    <span className="text-gray-400">+ 57</span> 315 839 51 09{" "}
-                  </p>
+                <div className="hidden  lg:block ">
+                  <div className="flex">
+                    <Image
+                      src="/telephone.png"
+                      width={25}
+                      height={5}
+                      alt="icon"
+                    />
+                    <p>
+                      <span className="text-gray-400">+ 57</span> 315 839 51 09{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
