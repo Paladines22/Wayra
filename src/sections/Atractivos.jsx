@@ -37,13 +37,13 @@ function Atractivos() {
             content={
               <div className="flex flex-wrap justify-center ">
                 <LaberintoSwiper />
-                <div className="w-full sm:max-w-[600px] my-10  sm:m-6 shadow-xl bg-white p-1 sm:p-4 rounded-lg ">
+                <div className="w-full sm:max-w-[550px] my-10  sm:m-6 shadow-xl bg-white p-1 sm:p-4 rounded-lg ">
                   <h2 className="text-2xl  sm:text-4xl text-center  text-[#216974] ">
                     Primer Laberinto Mirador del Huila
                   </h2>
                   <ul className="text-xl  font-thin  my-8">
                     <li>
-                      <div className="flex my-4 text-lg shadow-md sm:text-2xl sm:p-2 text-end gap-6 border rounded-md border-[#0C4049] ">
+                      <div className="flex my-4 text-lg shadow-md sm:text-xl sm:p-2 text-end gap-6 border rounded-md border-[#0C4049] ">
                         <p>
                           Formado por calles y encrucijadas complejas que te
                           harán emocionar. Sus caminos están creados con
@@ -58,7 +58,7 @@ function Atractivos() {
                         />
                       </div>
                     </li>
-                    <div className=" my-4 flex gap-4 shadow-md  text-lg sm:text-2xl border p-2 rounded-md border-[#0C4049] ">
+                    <div className=" my-4 flex gap-4 shadow-md  text-lg sm:text-xl border p-2 rounded-md border-[#0C4049] ">
                       <li className="text-end">
                         El propósito es que superes los obstáculos y halles la
                         salida. Tal y como pasa en la vida; en ocasiones tomamos
@@ -74,7 +74,7 @@ function Atractivos() {
                       />
                     </div>
                     <li>
-                      <div className="flex shadow-md  text-end text-lg sm:text-2xl gap-6 p-2 border rounded-md border-[#0C4049] ">
+                      <div className="flex shadow-md  text-end text-lg sm:text-xl gap-6 p-2 border rounded-md border-[#0C4049] ">
                         <p>
                           Al alcanzar a la meta te hallaras con una espectacular
                           vista a las montañas, bañadas por la majestuosidad del

@@ -23,7 +23,7 @@ function LaberintoSwiper() {
   };
 
   return (
-    <div className=" max-w-[90vw] lg:mt-6 sm:max-w-[50vw] max-h-[600px]">
+    <div className=" max-w-[90vw] lg:mt-6 sm:max-w-[45vw] max-h-[600px]">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fafafa",
