@@ -30,6 +30,28 @@
     rgba(163, 230, 255, 1) 91.1%
   );
 }
+ {
+  /** backgrounds OF HOME */
+}
+.bg-cabana {
+  background-image: url("/cabana1.jpg");
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(0.75);
+}
+
+.bg-nidos-view {
+  background-image: url("/home.jpg");
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(0.75);
+}
+.bg-birds {
+  background-image: url("/home2.jpg");
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(0.75);
+}
 
 .bg-nosotros {
   background-image: url("/laberinto1.jpg");

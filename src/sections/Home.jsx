@@ -52,19 +52,7 @@ function Home() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="">
-            <Image
-              className=" brightness-10 z-[-10] "
-              alt="Restaurante"
-              src="/home.jpg"
-              quality={100}
-              fill
-              sizes="100vw"
-              style={{
-                objectFit: "cover",
-                filter: "brightness(.8)",
-              }}
-            />
+          <div className="bg-nidos-view">
             <div className="flex flex-col gap-8 my-auto">
               <div className="w-[70vw] lg:w-[25vw] mx-auto relative top-14">
                 <Image
@@ -132,19 +120,7 @@ function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <Image
-              className=" brightness-10 z-[-10] "
-              alt="Restaurante"
-              src="/cabana1.jpg"
-              quality={100}
-              fill
-              sizes="100vw"
-              style={{
-                objectFit: "cover",
-                filter: "brightness(.5)",
-              }}
-            />
+          <div className="bg-cabana">
             <div className="flex flex-col gap-8 ">
               <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14 my-auto">
                 <Image
@@ -223,19 +199,7 @@ function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <Image
-              className=" brightness-10 z-[-10] "
-              alt="Restaurante"
-              src="/home2.jpg"
-              quality={100}
-              fill
-              sizes="100vw"
-              style={{
-                objectFit: "cover",
-                filter: "brightness(.5)",
-              }}
-            />
+          <div className="bg-birds">
             <div className="flex flex-col gap-8 ">
               <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14">
                 <Image
