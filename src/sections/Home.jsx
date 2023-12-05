@@ -52,7 +52,7 @@ function Home() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="bg-nidos-view h-[100vh]">
+          <div className="bg-nidos-view ">
             <div className="flex flex-col gap-8 justify-center filter-none">
               <div className="w-[70vw] lg:w-[25vw] mx-auto relative top-14">
                 <Image
@@ -120,7 +120,7 @@ function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-cabana h-[100vh]">
+          <div className="bg-cabana ">
             <div className="flex flex-col gap-8 filter-none">
               <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14 my-auto">
                 <Image
@@ -199,7 +199,7 @@ function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-birds h-[100vh]">
+          <div className="bg-birds ">
             <div className="flex flex-col gap-8 filter-none">
               <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14">
                 <Image
