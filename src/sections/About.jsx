@@ -35,7 +35,7 @@ function About() {
             }}
             className="px-4 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px] "
           >
-            <div className="mx-auto">
+            <div className="mx-auto max-w-[600px]">
               <Image
                 className="object-cover mx-auto w-[220px] rounded-[100%]"
                 width={160}
@@ -69,7 +69,7 @@ function About() {
             }}
             className="px-4 justify-center bg-[#faf9f9]   flex flex-col gap-4 h-[500px]"
           >
-            <div className="  mx-auto">
+            <div className="max-w-[600px]  mx-auto">
               <Image
                 className=" object-cover w-[220px] rounded-[80%] "
                 width={140}
@@ -108,7 +108,7 @@ function About() {
             }}
             className="px-4 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px]"
           >
-            <div className=" mx-auto">
+            <div className=" mx-auto max-w-[600px]">
               <Image
                 className=" object-cover w-[200px] rounded-[80%] "
                 width={160}
@@ -128,6 +128,7 @@ function About() {
             </div>
           </motion.div>
         </SwiperSlide>
+
         <SwiperSlide className="mt-10 w-[80vw] lg:w-[25vw] mx-20">
           <motion.div
             initial="hidden"
@@ -140,7 +141,7 @@ function About() {
             }}
             className="px-4 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px]"
           >
-            <div className="mx-auto">
+            <div className="mx-auto max-w-[600px]">
               <Image
                 className="object-cover mx-auto w-[220px] rounded-[100%]"
                 width={160}
