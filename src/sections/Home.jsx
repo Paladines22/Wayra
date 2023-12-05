@@ -53,7 +53,7 @@ function Home() {
       >
         <SwiperSlide>
           <div className="bg-nidos-view h-[100vh]">
-            <div className="flex flex-col gap-8 my-auto filter-none">
+            <div className="flex flex-col gap-8 justify-center filter-none">
               <div className="w-[70vw] lg:w-[25vw] mx-auto relative top-14">
                 <Image
                   width={500}

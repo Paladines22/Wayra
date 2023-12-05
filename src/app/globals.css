@@ -31,12 +31,25 @@
   );
 }
  {
-  /** backgrounds OF HOME */
+  /** backgrounds OF HOME ****/
 }
 .bg-cabana {
   background-image: url("/cabana1.jpg");
   background-size: cover;
   object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-cabana::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
   filter: brightness(0.75);
 }
 
@@ -44,15 +57,45 @@
   background-image: url("/home.jpg");
   background-size: cover;
   object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-nidos-view::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
   filter: brightness(0.75);
 }
+
 .bg-birds {
   background-image: url("/home2.jpg");
   background-size: cover;
   object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-birds::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
   filter: brightness(0.75);
 }
 
+ {
+  /*ABOUT SECTION **/
+}
 .bg-nosotros {
   background-image: url("/laberinto1.jpg");
   background-size: cover;
