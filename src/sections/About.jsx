@@ -23,7 +23,7 @@ function About() {
         modules={[Navigation]}
         className="sm:mx-8"
       >
-        <SwiperSlide className="mt-10 w-[80vw] lg:w-[25vw] mx-20">
+        <SwiperSlide className="">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -33,9 +33,9 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px] "
+            className="px-4 justify-center bg-[#faf9f9] w-[80vw] lg:w-[25vw] mt-10  mx-20  flex flex-col gap-4 h-[500px] "
           >
-            <div className="mx-auto max-w-[600px]">
+            <div className="mx-auto ">
               <Image
                 className="object-cover mx-auto w-[220px] rounded-[100%]"
                 width={160}
@@ -57,7 +57,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="mt-10  w-[80vw] lg:w-[25vw] mx-20">
+        <SwiperSlide className="">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -67,9 +67,9 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9]   flex flex-col gap-4 h-[500px]"
+            className="px-4 justify-center bg-[#faf9f9] mt-10  w-[80vw] lg:w-[25vw] mx-20  flex flex-col gap-4 h-[500px]"
           >
-            <div className="max-w-[600px]  mx-auto">
+            <div className=" mx-auto">
               <Image
                 className=" object-cover w-[220px] rounded-[80%] "
                 width={140}
@@ -96,7 +96,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="mt-10 w-[80vw] lg:w-[25vw] mx-20">
+        <SwiperSlide className="">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -106,9 +106,9 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px]"
+            className="px-4 justify-center bg-[#faf9f9] mt-10 w-[80vw] lg:w-[25vw] mx-20  flex flex-col gap-4 h-[500px]"
           >
-            <div className=" mx-auto max-w-[600px]">
+            <div className=" mx-auto">
               <Image
                 className=" object-cover w-[200px] rounded-[80%] "
                 width={160}
@@ -129,7 +129,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="mt-10 w-[80vw] lg:w-[25vw] mx-20">
+        <SwiperSlide className="">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -139,9 +139,9 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px]"
+            className="px-4 mt-10 w-[80vw] lg:w-[25vw] mx-20 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px]"
           >
-            <div className="mx-auto max-w-[600px]">
+            <div className="mx-auto">
               <Image
                 className="object-cover mx-auto w-[220px] rounded-[100%]"
                 width={160}
