@@ -5,6 +5,14 @@
 .body {
   width: 100vw;
 }
+.bg-nav-gradient {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    81deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
 
 .bg-home-gradient {
   background: rgb(250, 250, 250);
@@ -30,75 +38,32 @@
     rgba(163, 230, 255, 1) 91.1%
   );
 }
- {
-  /** backgrounds OF HOME ****/
-}
-.bg-cabana {
-  background-image: url("/cabana1.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
 
-.bg-cabana::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
+.bg-cabana {
+  background-image: url("/home3.jpg");
+  background-size: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  background: inherit;
-  filter: brightness(0.75);
 }
 
 .bg-nidos-view {
   background-image: url("/home.jpg");
   background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
+  object-fit: cover;
 
-.bg-nidos-view::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background: inherit;
-  filter: brightness(0.75);
 }
-
 .bg-birds {
   background-image: url("/home2.jpg");
   background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
+  object-fit: cover;
 
-.bg-birds::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background: inherit;
-  filter: brightness(0.75);
 }
 
- {
-  /*ABOUT SECTION **/
-}
 .bg-nosotros {
   background-image: url("/laberinto1.jpg");
   background-size: cover;

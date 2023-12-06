@@ -11,7 +11,7 @@ import { Navigation } from "swiper/modules";
 
 function About() {
   return (
-    <div className="w-[90vw] h-max mx-auto  sm:h-max bg-[#faf9f9] font-thin  sm:my-4">
+    <div className="w-[100vw] h-max mx-auto  sm:h-max bg-[#faf9f9] font-thin mx-10 ">
       <Swiper
         style={{
           "--swiper-navigation-color": "#0C4049",
@@ -21,9 +21,9 @@ function About() {
         slidesPerView={"auto"}
         navigation={true}
         modules={[Navigation]}
-        className="sm:mx-8"
+        className="sm:mx-8 max-w-[95vw]"
       >
-        <SwiperSlide className="">
+        <SwiperSlide className="lg:w-[800px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -33,7 +33,7 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9] w-[80vw] lg:w-[25vw] mt-10  mx-20  flex flex-col gap-4 h-[500px] "
+            className="px-4 justify-center w-[80vw] lg:w-[600px] mt-10  mx-20  flex flex-col gap-4 h-[500px] "
           >
             <div className="mx-auto ">
               <Image
@@ -57,7 +57,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="">
+        <SwiperSlide className="lg:w-[800px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -67,7 +67,7 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9] mt-10  w-[80vw] lg:w-[25vw] mx-20  flex flex-col gap-4 h-[500px]"
+            className="px-4 justify-center lg:w-[600px] mt-10  w-[80vw] lg:w-[25vw] mx-20  flex flex-col gap-4 h-[500px]"
           >
             <div className=" mx-auto">
               <Image
@@ -96,7 +96,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="">
+        <SwiperSlide className="lg:w-[800px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -106,7 +106,7 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 justify-center bg-[#faf9f9] mt-10 w-[80vw] lg:w-[25vw] mx-20  flex flex-col gap-4 h-[500px]"
+            className="px-4 justify-center  lg:w-[600px] mt-10 w-[80vw] mx-20  flex flex-col gap-4 h-[500px]"
           >
             <div className=" mx-auto">
               <Image
@@ -129,7 +129,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="">
+        <SwiperSlide className="lg:w-[800px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -139,9 +139,9 @@ function About() {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="px-4 mt-10 w-[80vw] lg:w-[25vw] mx-20 justify-center bg-[#faf9f9]  flex flex-col gap-4 h-[500px]"
+            className="px-4 mt-10 w-[80vw] lg:w-[600px] mx-20 justify-center  flex flex-col gap-4 h-[500px]"
           >
-            <div className="mx-auto">
+            <div className="mx-auto max-w-[600px]">
               <Image
                 className="object-cover mx-auto w-[220px] rounded-[100%]"
                 width={160}

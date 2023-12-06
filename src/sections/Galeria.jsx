@@ -56,7 +56,7 @@ export default function Galeria() {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        <h1 className="text-center lg:text-end lg:mr-14 py-4 text-4xl lg:text-8xl text-[#216974]">
+        <h1 className="text-center lg:text-end lg:mr-14 py-4 text-4xl lg:text-8xl text-[#1faeb0]">
           GALERÍA
         </h1>
       </motion.div>

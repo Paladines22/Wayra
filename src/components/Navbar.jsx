@@ -13,17 +13,13 @@ function Navbar() {
       <div
         className={` ${
           openMobileMenu ? "h-[100vh] w-[80vw]" : ""
-        } w-[100vw] fixed top-0 left-0 ease-in duration-300 z-20  bg-[#0C4049]`}
+        } w-[100vw] fixed top-0 left-0 ease-in duration-300 z-20  bg-nav-gradient`}
       >
         <nav className="flex items-center w-full p-2 max-w-[1240px]  text-[#F4F1E9]  mx-auto justify-between ">
           <Link href="/" className="flex items-center">
-            <Image
-              width={90}
-              height={20}
-              src="./wayra-logo.svg"
-              alt="Wayra Logo"
-              className={`${openMobileMenu ? "hidden" : "block"}`}
-            />
+            <p className={`text-5xl ${openMobileMenu ? "hidden" : "block"}`}>
+              WAYRA
+            </p>
           </Link>
           <div className="flex flex-col gap-20 items-start p-2">
             <button
@@ -85,8 +81,8 @@ function Navbar() {
                       height={5}
                       alt="icon"
                     />
-                    <p>
-                      <span className="text-gray-400">+ 57</span> 315 839 51 09{" "}
+                    <p className="text-[#111112]/70">
+                      <span className="text-gray-500">+ 57</span> 315 839 51 09{" "}
                     </p>
                   </div>
                 </div>

@@ -17,7 +17,7 @@ function Atractivos() {
     <section className="h-max" id="atractivos">
       <MotionAnimationLeft
         content={
-          <h1 className="text-center lg:text-start text-4xl lg:text-8xl ml-12 text-[#0C4049]">
+          <h1 className="text-center lg:text-start text-4xl lg:text-8xl ml-12 text-[#1faeb0]">
             NUESTROS ATRACTIVOS
           </h1>
         }
@@ -38,7 +38,7 @@ function Atractivos() {
               <div className="flex flex-wrap justify-center ">
                 <LaberintoSwiper />
                 <div className="w-full sm:max-w-[550px] my-10  sm:m-6 shadow-xl bg-white p-1 sm:p-4 rounded-lg ">
-                  <h2 className="text-2xl  sm:text-4xl text-center  text-[#216974] ">
+                  <h2 className="text-2xl  sm:text-4xl text-center  text-[#e4a829] ">
                     Primer Laberinto Mirador del Huila
                   </h2>
                   <ul className="text-xl  font-thin  my-8">
@@ -110,7 +110,7 @@ function Atractivos() {
             content={
               <div className="flex flex-wrap justify-center gap-14 mx-8">
                 <div className="max-w-[600px] bg-white sm:m-6 p-2 shadow-xl  rounded-lg my-auto">
-                  <h2 className="text-2xl sm:text-4xl text-[#216974] text-bold">
+                  <h2 className="text-2xl sm:text-4xl text-[#e4a829] text-bold">
                     Una representación artística de la avifauna de nuestra
                     región
                   </h2>

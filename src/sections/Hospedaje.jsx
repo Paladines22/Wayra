@@ -19,7 +19,7 @@ function Hospedaje() {
     <section className="pt-8 sm:pt-4 h-max w-full " id="hospedaje">
       <MotionAnimationLeft
         content={
-          <h1 className="text-center lg:text-start lg:ml-24 lg:text-7xl py-4  text-4xl text-[#216974]">
+          <h1 className="text-center lg:text-start lg:ml-24 lg:text-7xl py-4  text-4xl text-[#1faeb0]">
             HOSPEDAJE
           </h1>
         }

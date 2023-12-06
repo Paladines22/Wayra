@@ -42,7 +42,7 @@ function Comments() {
     <section className=" max-w-[90vw] lg:max-w-[1500px] my-8 lg:my-32 mx-auto  lg:h-[70vh]">
       <MotionAnimationRight
         content={
-          <h1 className="flex justify-end py-8 text-4xl lg:text-8xl text-[#216974]">
+          <h1 className="flex justify-end py-8 text-4xl lg:text-8xl text-[#1faeb0]">
             ¿Qué dicen nuestros clientes?
           </h1>
         }

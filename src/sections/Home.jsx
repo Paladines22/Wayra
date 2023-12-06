@@ -52,20 +52,20 @@ function Home() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="bg-nidos-view ">
-            <div className="flex flex-col gap-8 my-auto">
-              <div className="w-[70vw] lg:w-[25vw] mx-auto">
+          <div className="bg-nidos-view brightness-60 flex items-center justify-center">
+            <div className="flex flex-col  gap-8">
+              <div className="w-[70vw] font-bold lg:w-[23vw] mx-auto relative top-14">
                 <Image
-                  width={500}
+                  width={80}
                   height={30}
                   src="./wayra-logo.svg"
                   alt="Wayra Logo"
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl   sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
-                  Finca <span className="ml-12  sm:ml-20">Turística</span>
+                  Finca <span className="ml-12 sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
@@ -120,9 +120,9 @@ function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-cabana ">
+          <div className="bg-cabana flex items-center justify-center">
             <div className="flex flex-col gap-8 ">
-              <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14 my-auto">
+              <div className="w-[70vw] lg:w-[23vw] mx-auto relative top-14 ">
                 <Image
                   width={500}
                   height={30}
@@ -131,9 +131,9 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24 lg:text-5xl  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
-                  Finca <span className="ml-12  sm:ml-20">Turística</span>
+                  Finca <span className="ml-12 sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
@@ -199,9 +199,9 @@ function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-birds ">
-            <div className="flex flex-col gap-8 ">
-              <div className="w-[70vw] lg:w-[25vw]  mx-auto relative top-14">
+          <div className="bg-birds brightness-30  flex items-center z-0 justify-center ">
+            <div className="flex flex-col gap-8 z-10">
+              <div className="w-[70vw] lg:w-[23vw]  mx-auto relative top-14">
                 <Image
                   width={500}
                   height={30}
@@ -210,7 +210,7 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24 lg:text-5xl  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12  sm:ml-20">Turística</span>
                 </p>
