@@ -63,13 +63,13 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl   sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl   sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12 sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
-                className={`${caveat.className} text-white text-4xl sm:text-6xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
+                className={`${caveat.className} text-white text-4xl sm:text-5xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
               >
                 <motion.div
                   initial="hidden"
@@ -131,13 +131,13 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12 sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
-                className={`${caveat.className} text-white text-4xl sm:text-6xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
+                className={`${caveat.className} text-white text-4xl sm:text-5xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
               >
                 <motion.div
                   initial="hidden"
@@ -182,7 +182,7 @@ function Home() {
               </div>
               <div className="mx-auto">
                 <a href="https://Wa.me/3157317717" target="_blank">
-                  <button className="hover:opacity-70 transition duration-500 border pl-6  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48 lg:w-56 cursor-pointer flex gap-4 ">
+                  <button className="hover:opacity-70 transition duration-500 border pl-5  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48  cursor-pointer flex gap-4 ">
                     <p className="font-bold my-auto">Contactar</p>
                     <div className="">
                       <Image
@@ -210,7 +210,7 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-6xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl  sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12  sm:ml-20">Turística</span>
                 </p>
@@ -218,7 +218,7 @@ function Home() {
               <div className="mx-auto">
                 <MotionAnimationBottom
                   content={
-                    <button className="hover:opacity-70 transition duration-500 border pl-10  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48 lg:h-14 lg:w-[50]  cursor-pointer flex gap-4 ">
+                    <button className="hover:opacity-70 transition duration-500 border pl-10  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48 lg:h-12 lg:w-[50]  cursor-pointer flex gap-4 ">
                       <p className="font-bold my-auto">Tours</p>
 
                       <div className="mb-1">

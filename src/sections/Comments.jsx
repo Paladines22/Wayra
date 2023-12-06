@@ -66,17 +66,7 @@ function Comments() {
                   className="max-w-[80vw] shadow-2xl mx-20 lg:max-w-[370px] lg:max-h-[480px] flex flex-col gap-4 bg-white  rounded-xl"
                   key={index}
                 >
-                  <div className="  h-10 w-10 relative right-36">
-                    <Image
-                      src="/cita.png"
-                      width={10}
-                      height={10}
-                      alt="comment-icon"
-                      className=""
-                    />
-                  </div>
-
-                  <div className="flex flex-col gap-2 relative bottom-12">
+                  <div className="flex flex-col gap-2 relative bottom-24">
                     <h2 className="text-3xl text-center text-[#0C4049]">
                       {user.userName}
                     </h2>
