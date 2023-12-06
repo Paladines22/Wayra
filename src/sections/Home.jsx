@@ -183,7 +183,7 @@ function Home() {
               <div className="mx-auto">
                 <a href="https://Wa.me/3157317717" target="_blank">
                   <button className="hover:opacity-70 transition duration-500 border pl-5  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48  cursor-pointer flex gap-4 ">
-                    <p className="font-bold my-auto">Contactar</p>
+                    <p className="font-bold my-12">Contactar</p>
                     <div className="">
                       <Image
                         src="/right-chevron-.png"
