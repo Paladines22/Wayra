@@ -23,7 +23,7 @@ function About() {
         modules={[Navigation]}
         className="sm:mx-8 max-w-[95vw]"
       >
-        <SwiperSlide className="lg:max-w-[600px]">
+        <SwiperSlide className="lg:max-w-[550px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -57,7 +57,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="lg:max-w-[600px]">
+        <SwiperSlide className="lg:max-w-[550px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -96,7 +96,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="lg:max-w-[600px]">
+        <SwiperSlide className="lg:max-w-[550px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -129,7 +129,7 @@ function About() {
           </motion.div>
         </SwiperSlide>
 
-        <SwiperSlide className="lg:max-w-[600px]">
+        <SwiperSlide className="lg:max-w-[550px]">
           <motion.div
             initial="hidden"
             whileInView="visible"
