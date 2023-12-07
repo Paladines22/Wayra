@@ -17,7 +17,7 @@ function Navbar() {
       >
         <nav className="flex items-center w-full p-2 max-w-[1240px]  text-[#F4F1E9]  mx-auto justify-between ">
           <Link href="/" className="flex items-center">
-            <p className={`text-5xl ${openMobileMenu ? "hidden" : "block"}`}>
+            <p className={`text-4xl ${openMobileMenu ? "hidden" : "block"}`}>
               WAYRA
             </p>
           </Link>
