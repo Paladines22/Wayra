@@ -12,7 +12,7 @@ function Footer() {
         </div>
         <div className=" mx-auto my-8 w-max flex flex-col">
           <SocialMediaIcons width={40} height={20} />
-          <h2 className="text-gray-400 underline underline-offset-4 text-center text-sm  sm:pb-8 lg:ml-16 italic">
+          <h2 className="text-gray-400 underline underline-offset-4 text-center text-sm mt-12 italic">
             Desarrollado por Emuna 2023
           </h2>
         </div>
