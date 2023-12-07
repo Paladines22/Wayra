@@ -1,7 +1,7 @@
 export const dataNavbar = [
   {
     id: 1,
-    name: "Sobre Nosotros",
+    name: "Nosotros",
     idLink: "about",
   },
   {

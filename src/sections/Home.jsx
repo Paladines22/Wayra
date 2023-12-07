@@ -206,7 +206,7 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl  sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl  sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-32 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12  sm:ml-20">Turística</span>
                 </p>
