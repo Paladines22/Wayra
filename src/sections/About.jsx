@@ -11,7 +11,7 @@ import { Navigation } from "swiper/modules";
 
 function About() {
   return (
-    <div className="w-[100vw] h-max mx-auto  sm:h-max bg-[#faf9f9] font-thin mx-10 ">
+    <div className="w-[100vw] h-max mx-auto text-lg sm:h-max bg-[#faf9f9] font-thin mx-10 ">
       <Swiper
         style={{
           "--swiper-navigation-color": "#0C4049",
