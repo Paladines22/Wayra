@@ -67,13 +67,13 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl   sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl   sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-28  sm:bottom-36 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12 sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
-                className={`${caveat.className} text-white text-4xl sm:text-5xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
+                className={`${caveat.className} text-white text-3xl sm:text-5xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
               >
                 <motion.div
                   initial="hidden"
@@ -138,13 +138,13 @@ function Home() {
                   className="mx-auto"
                 />
                 <p
-                  className={`text-4xl sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-24  sm:bottom-36 text-white ${tajawal.className}`}
+                  className={`text-4xl sm:text-5xl mt-4 relative left-9 sm:left-14 bottom-28  sm:bottom-36 text-white ${tajawal.className}`}
                 >
                   Finca <span className="ml-12 sm:ml-20">Turística</span>
                 </p>
               </div>
               <div
-                className={`${caveat.className} text-white text-4xl sm:text-5xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
+                className={`${caveat.className} text-white text-3xl sm:text-5xl flex w-[90vw] lg:w-[1000px] mx-auto justify-center gap-4 sm:gap-48 mb-14`}
               >
                 <motion.div
                   initial="hidden"

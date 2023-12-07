@@ -12,7 +12,7 @@ function SocialMediaIcons() {
       >
         <Image
           src="/instagram.png"
-          width={35}
+          width={30}
           height={20}
           alt="instagram-link"
         />
@@ -23,7 +23,7 @@ function SocialMediaIcons() {
         target="_blank"
         rel="noreferrer"
       >
-        <Image src="/facebook.png" width={35} height={20} alt="facebook-link" />
+        <Image src="/facebook.png" width={30} height={20} alt="facebook-link" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -31,7 +31,7 @@ function SocialMediaIcons() {
         target="_blank"
         rel="noreferrer"
       >
-        <Image src="/whatsapp.png" width={35} height={40} alt="facebook-link" />
+        <Image src="/whatsapp.png" width={30} height={40} alt="facebook-link" />
       </a>
     </div>
   );
