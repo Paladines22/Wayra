@@ -54,7 +54,7 @@ function Home() {
       >
         <SwiperSlide>
           <div className="flex items-center justify-center w-[100vw]">
-            <div className="w-[100vw] brightness-40 h-[100vh] relative">
+            <div className="w-[100vw] brightness-50 h-[100vh] relative">
               <Image src={"/home.jpg"} alt="image-home" fill />
             </div>
             <div className="flex flex-col absolute  gap-4">

@@ -78,7 +78,7 @@ function Navbar() {
                     <Image
                       src="/telephone.png"
                       width={20}
-                      height={3}
+                      height={2}
                       alt="icon"
                     />
                     <p className="text-[#111112]/70">
