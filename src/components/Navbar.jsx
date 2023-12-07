@@ -77,7 +77,7 @@ function Navbar() {
                   <div className="flex">
                     <Image
                       src="/telephone.png"
-                      width={25}
+                      width={20}
                       height={5}
                       alt="icon"
                     />
