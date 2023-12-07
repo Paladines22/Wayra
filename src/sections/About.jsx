@@ -44,8 +44,8 @@ function About() {
                 alt="Estatua"
               />
             </div>
-            <div className="p-4">
-              <p className=" text-xl my-4">
+            <div className="p-4 w-auto">
+              <p className=" text-xl my-1">
                 Muy cerca a nosotros podrás conectar con los impresionantes
                 vestigios arqueologicos de las culturas de{" "}
                 <span className="text-[#E09453] font-bold">San Agustin</span> y{" "}
@@ -78,8 +78,8 @@ function About() {
                 alt="Culturas Andinas"
               />
             </div>
-            <div className="p-4">
-              <p className="text-xl my-4">
+            <div className="p-4 w-auto">
+              <p className="text-xl my-1">
                 Las{" "}
                 <span className="text-[#E09453] font-bold">
                   {" "}
@@ -117,8 +117,8 @@ function About() {
                 alt="Wayra Tata"
               />
             </div>
-            <div className="p-4">
-              <p className=" text-xl my-4">
+            <div className="p-4 w-auto">
+              <p className=" text-xl my-1">
                 <span className=" text-[#E09453] font-bold"> Wayra </span> (
                 palabra Quechua ). En la cosmovisión Andina tiene una simbología
                 muy profunda, se asocia a una poderosa divinidad,{" "}
@@ -150,8 +150,8 @@ function About() {
                 alt=" Ave"
               />
             </div>
-            <div className="p-4">
-              <p className=" text-xl my-4">
+            <div className="p-4 w-auto">
+              <p className=" text-xl my-1">
                 <span className="text-[#E09453] font-bold">WAYRA</span> es hogar
                 de las aves. Promovemos su{" "}
                 <span className="text-[#0C4049] font-bold">
