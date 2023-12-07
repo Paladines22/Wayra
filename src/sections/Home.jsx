@@ -194,7 +194,7 @@ function Home() {
         <SwiperSlide>
           <div className=" flex items-center justify-center w-[100vw]">
             <div className="w-[100vw] brightness-50 h-[100vh] relative">
-              <Image src={"/home2.jpg"} alt="image-home" fill />
+              <Image src={"/home3.jpg"} alt="image-home" fill />
             </div>
             <div className="flex flex-col absolute filter-none gap-8 z-20">
               <div className="w-[70vw] lg:w-[23vw]  mx-auto relative top-14">
