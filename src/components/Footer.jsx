@@ -12,10 +12,10 @@ function Footer() {
         </div>
         <div className=" mx-auto my-8 w-max ">
           <SocialMediaIcons width={40} height={20} />
+          <h2 className="text-gray-400 underline underline-offset-4 text-center text-sm  sm:pb-8 lg:ml-16 italic">
+            Desarrollado por Emuna 2023
+          </h2>
         </div>
-        <h2 className="text-gray-400 underline underline-offset-4 text-center text-lg  sm:pb-8 lg:ml-16 italic">
-          Desarrollado por Emuna 2023
-        </h2>
       </div>
     </div>
   );

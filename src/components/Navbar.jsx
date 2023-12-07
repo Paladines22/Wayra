@@ -15,7 +15,7 @@ function Navbar() {
           openMobileMenu ? "h-[100vh] w-[80vw]" : ""
         } w-[100vw] fixed top-0 left-0 ease-in duration-300 z-20  bg-nav-gradient`}
       >
-        <nav className="flex items-center w-full p-2 max-w-[1240px]  text-[#F4F1E9]  mx-auto justify-between ">
+        <nav className="flex items-center w-full  max-w-[1240px]  text-[#F4F1E9]  mx-auto justify-between ">
           <Link href="/" className="flex items-center">
             <p className={`text-3xl ${openMobileMenu ? "hidden" : "block"}`}>
               WAYRA
@@ -78,7 +78,7 @@ function Navbar() {
                     <Image
                       src="/telephone.png"
                       width={20}
-                      height={5}
+                      height={3}
                       alt="icon"
                     />
                     <p className="text-[#111112]/70">
