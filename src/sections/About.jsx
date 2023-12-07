@@ -11,7 +11,7 @@ import { Navigation } from "swiper/modules";
 
 function About() {
   return (
-    <div className="w-[100vw] h-max mx-auto text-lg sm:h-max bg-[#faf9f9] font-thin mx-10 ">
+    <div className="w-[100vw] h-max mx-auto sm:h-max bg-[#faf9f9] font-thin mx-10 ">
       <Swiper
         style={{
           "--swiper-navigation-color": "#0C4049",
@@ -45,7 +45,7 @@ function About() {
               />
             </div>
             <div className="p-4">
-              <p className=" text-2xl my-4">
+              <p className=" text-xl my-4">
                 Muy cerca a nosotros podrás conectar con los impresionantes
                 vestigios arqueologicos de las culturas de{" "}
                 <span className="text-[#E09453] font-bold">San Agustin</span> y{" "}
@@ -79,7 +79,7 @@ function About() {
               />
             </div>
             <div className="p-4">
-              <p className="text-2xl my-4">
+              <p className="text-xl my-4">
                 Las{" "}
                 <span className="text-[#E09453] font-bold">
                   {" "}
@@ -118,7 +118,7 @@ function About() {
               />
             </div>
             <div className="p-4">
-              <p className=" text-2xl my-4">
+              <p className=" text-xl my-4">
                 <span className=" text-[#E09453] font-bold"> Wayra </span> (
                 palabra Quechua ). En la cosmovisión Andina tiene una simbología
                 muy profunda, se asocia a una poderosa divinidad,{" "}
@@ -151,7 +151,7 @@ function About() {
               />
             </div>
             <div className="p-4">
-              <p className=" text-2xl my-4">
+              <p className=" text-xl my-4">
                 <span className="text-[#E09453] font-bold">WAYRA</span> es hogar
                 de las aves. Promovemos su{" "}
                 <span className="text-[#0C4049] font-bold">
