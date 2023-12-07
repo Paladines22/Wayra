@@ -4,6 +4,7 @@ import { Caveat, Tajawal } from "next/font/google";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
+import BgButton from "@/components/BgButton";
 
 const caveat = Caveat({
   subsets: ["latin"],
@@ -52,8 +53,11 @@ function Home() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="bg-nidos-view brightness-60 flex items-center justify-center">
-            <div className="flex flex-col  gap-8">
+          <div className="flex items-center justify-center w-[100vw]">
+            <div className="w-[100vw] brightness-40 h-[100vh] relative">
+              <Image src={"/home.jpg"} alt="image-home" fill />
+            </div>
+            <div className="flex flex-col absolute  gap-4">
               <div className="w-[70vw] font-bold lg:w-[23vw] mx-auto relative top-14">
                 <Image
                   width={80}
@@ -95,7 +99,7 @@ function Home() {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-                  <h2 className=" ">Hospedaje</h2>
+                  <h2 className="">Hospedaje</h2>
                 </motion.div>
 
                 <motion.div
@@ -113,15 +117,18 @@ function Home() {
                 </motion.div>
               </div>
               {/** social media icons  */}
-              <div className="w-[200px] mx-auto flex gap-8 h-[40px]">
+              <div className="w-[200px] relative top-52 mx-auto flex gap-8 h-[40px]">
                 <SocialMediaIcons />
               </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-cabana flex items-center justify-center">
-            <div className="flex flex-col gap-8 ">
+          <div className="flex items-center justify-center w-[100vw]">
+            <div className="w-[100vw] brightness-50 h-[100vh] relative">
+              <Image src={"/home2.jpg"} alt="image-home" fill />
+            </div>
+            <div className="flex flex-col absolute gap-8 ">
               <div className="w-[70vw] lg:w-[23vw] mx-auto relative top-14 ">
                 <Image
                   width={500}
@@ -180,27 +187,16 @@ function Home() {
                   <h2 className=" ">Confort</h2>
                 </motion.div>
               </div>
-              <div className="mx-auto">
-                <a href="https://Wa.me/3157317717" target="_blank">
-                  <button className="hover:opacity-70 transition duration-500 border pl-5  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48  cursor-pointer flex gap-4 ">
-                    <p className="font-bold my-12">Contactar</p>
-                    <div className="">
-                      <Image
-                        src="/right-chevron-.png"
-                        width={60}
-                        alt="image"
-                        height={60}
-                      />
-                    </div>
-                  </button>
-                </a>
-              </div>
+              <BgButton text="CONTACTAR" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-birds brightness-30  flex items-center z-0 justify-center ">
-            <div className="flex flex-col gap-8 z-10">
+          <div className=" flex items-center justify-center w-[100vw]">
+            <div className="w-[100vw] brightness-50 h-[100vh] relative">
+              <Image src={"/home2.jpg"} alt="image-home" fill />
+            </div>
+            <div className="flex flex-col absolute filter-none gap-8 z-20">
               <div className="w-[70vw] lg:w-[23vw]  mx-auto relative top-14">
                 <Image
                   width={500}
@@ -216,23 +212,7 @@ function Home() {
                 </p>
               </div>
               <div className="mx-auto">
-                <MotionAnimationBottom
-                  content={
-                    <button className="hover:opacity-70 transition duration-500 border pl-10  text-[#0C4049] text-2xl lg:text-3xl bg-gradient-btn rounded-full w-48 lg:h-12 lg:w-[50]  cursor-pointer flex gap-4 ">
-                      <p className="font-bold my-auto">Tours</p>
-
-                      <div className="mb-1">
-                        <Image
-                          src="/right-chevron-.png"
-                          width={47}
-                          alt="image"
-                          height={47}
-                          className=""
-                        />
-                      </div>
-                    </button>
-                  }
-                />
+                <MotionAnimationBottom content={<BgButton text="TOURS" />} />
               </div>
             </div>
           </div>
