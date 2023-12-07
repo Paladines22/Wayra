@@ -74,7 +74,7 @@ function Navbar() {
                   </ul>
                 ))}
                 <div className="hidden  lg:block ">
-                  <div className="flex">
+                  <div className="fle w-[20px] h-[20px]">
                     <Image
                       src="/telephone.png"
                       width={20}

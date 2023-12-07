@@ -117,7 +117,7 @@ function Home() {
                 </motion.div>
               </div>
               {/** social media icons  */}
-              <div className="w-[200px] relative top-40 mx-auto flex gap-8 h-[40px]">
+              <div className="w-[200px] relative top-36 mx-auto flex gap-8 h-[40px]">
                 <SocialMediaIcons />
               </div>
             </div>
