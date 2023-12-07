@@ -80,9 +80,9 @@ function Navbar() {
                       width={20}
                       height={2}
                       alt="icon"
-                    />  
-                    <p className="text-gray-400">
-                      <span className="text-gray-700">+ 57</span> 315 839 51 09{" "}
+                    />
+                    <p className="text-gray-700">
+                      <span className="text-gray-500">+ 57</span> 315 839 51 09{" "}
                     </p>
                   </div>
                 </div>
