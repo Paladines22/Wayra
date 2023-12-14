@@ -50,6 +50,7 @@ function LaberintoSwiper() {
             width={1200}
             height={300}
             alt=" Laberinto"
+            layout="responsive"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -59,6 +60,7 @@ function LaberintoSwiper() {
             width={1200}
             height={300}
             alt=" Laberinto"
+            layout="responsive"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -68,6 +70,7 @@ function LaberintoSwiper() {
             width={1200}
             height={300}
             alt=" Laberinto"
+            layout="responsive"
           />
         </SwiperSlide>
 

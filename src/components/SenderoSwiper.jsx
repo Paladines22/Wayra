@@ -50,6 +50,7 @@ function SenderoSwiper() {
             width={500}
             height={300}
             alt="image Laberinto"
+            layout="responsive"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -59,6 +60,7 @@ function SenderoSwiper() {
             width={500}
             height={300}
             alt="image Laberinto"
+            layout="responsive"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -68,6 +70,7 @@ function SenderoSwiper() {
             width={500}
             height={300}
             alt="image Laberinto"
+            layout="responsive"
           />
         </SwiperSlide>
 
