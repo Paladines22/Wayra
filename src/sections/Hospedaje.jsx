@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import RoomFeatures from "../components/RoomFeatures";
 import { Caveat } from "next/font/google";

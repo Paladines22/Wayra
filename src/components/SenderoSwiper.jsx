@@ -23,7 +23,7 @@ function SenderoSwiper() {
   };
 
   return (
-    <div className="max-w-[90vw] sm:max-w-[30vw]">
+    <div className="max-w-[90vw] sm:max-w-[30vw] max-h-[600px]">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fafafa",
