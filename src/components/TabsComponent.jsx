@@ -12,26 +12,26 @@ import "swiper/css/navigation";
 
 import "../app/globals.css";
 
-import azulejo1 from "../public/azulejo1.jpg";
-import azulejo2 from "../public/azulejo2.jpg";
-import azulejo3 from "../public/azulejo3.jpg";
-import azulejo4 from "../public/azulejo4.jpg";
-import nidos2 from "../public/nidos2.jpg";
-import azulejo5 from "../public/azulejo5.jpg";
+import azulejo1 from "/public/azulejo1.jpg";
+import azulejo2 from "/public/azulejo2.jpg";
+import azulejo3 from "/public/azulejo3.jpg";
+import azulejo4 from "/public/azulejo4.jpg";
+import nidos2 from "/public/nidos2.jpg";
+import azulejo5 from "/public/azulejo5.jpg";
 
-import nidos1 from "../public/nidos1.jpg";
-import colibri1 from "../public/colibri1.jpg";
-import colibri2 from "../public/colibri2.jpg";
-import colibri3 from "../public/colibri3.jpg";
-import colibri4 from "../public/colibri4.jpg";
+import nidos1 from "/public/nidos1.jpg";
+import colibri1 from "/public/colibri1.jpg";
+import colibri2 from "/public/colibri2.jpg";
+import colibri3 from "/public/colibri3.jpg";
+import colibri4 from "/public/colibri4.jpg";
 
-import canario1 from "../public/canario1.jpg";
-import canario2 from "../public/canario2.jpg";
-import canario3 from "../public/canario3.jpg";
+import canario1 from "/public/canario1.jpg";
+import canario2 from "/public/canario2.jpg";
+import canario3 from "/public/canario3.jpg";
 
-import cardenal1 from "../public/cardenal1.jpg";
-import cardenal2 from "../public/cardenal2.jpg";
-import cardenal3 from "../public/cardenal3.jpg";
+import cardenal1 from "/public/cardenal1.jpg";
+import cardenal2 from "/public/cardenal2.jpg";
+import cardenal3 from "/public/cardenal3.jpg";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
